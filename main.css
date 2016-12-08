@@ -1,56 +1,59 @@
 @ -0,0 +1,55 @@
-+/* Main css */
-+
-+body {
-+	margin: 1% 2%;
-+	text-align: center;
-+	color: #222;
-+}
-+
-+.navbar{
-+	background: none;
-+	border: none;
-+}
-+
-+.navbar li a{
-+	padding-top: 0.5em;
-+	padding-bottom: 0.5em;
-+}
-+
-+#signinbtn{
-+	color: white;
-+	font-weight: bold;
-+	background-color: rgb(66, 133, 244);
-+	border-radius: 5%;
-+}
-+
-+.centerly{
-+		padding-top: 10%;
-+}
-+
-+#searchbar{
-+	background-color: white;
-+	width: 30%;
-+	margin: 1.5%;
-+	padding: 0.5em;
-+	border-color: black;
-+	border-width: 1px;
-+	-webkit-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.06);
-+	-moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.06);
-+	box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.06);
-+}
-+
-+#form button {
-+	border-radius: 0;
-+	box-shadow: none;
-+	background-color: #F5F5F5;
-+}
-+
-+.navbar-fixed-bottom{
-+	padding: 0 2%;
-+	background-color: #F5F5F5;
-+}
-+
-+.navbar-fixed-bottom li a{
-+	color: grey;
-+}
+/* Main css */
+
+body {
+	margin: 1% 2%;
+	text-align: center;
+	color: #222;
+	position: center;
+}
+
+.navbar{
+	background: none;
+	border: none;
+}
+
+.navbar li a{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#signinbtn{
+	color: white;
+	font-weight: bold;
+	background-color: rgb(66, 133, 244);
+	border-radius: 5%;
+}
+
+.centerly{
+		padding-top: 15%;
+		padding-left: 40%;
+}
+
+#searchbar{
+	background-color: white;
+	width: 30%;
+	margin: 1.5%;
+	padding: 0.5em;
+	border-color: black;
+	border-width: 1px;
+	-webkit-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.06);
+	-moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.06);
+	box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.06);
+
+}
+
+#form button {
+	border-radius: 0;
+	box-shadow: none;
+	background-color: #F5F5F5;
+}
+
+.navbar-fixed-bottom{
+	padding: 0 2%;
+	background-color: #F5F5F5;
+}
+
+.navbar-fixed-bottom li a{
+	color: grey;
+}
