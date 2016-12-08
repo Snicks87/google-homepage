@@ -1,1 +1,1 @@
-a mock up off google - nooding round with html and css
+a mock up of google - with html and css.
